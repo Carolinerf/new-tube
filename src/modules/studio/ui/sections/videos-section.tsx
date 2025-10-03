@@ -62,9 +62,9 @@ const VideoSectionSuspense = () => {
                   <TableCell>visibility</TableCell>
                   <TableCell>status</TableCell>
                   <TableCell>data</TableCell>
-                  <TableCell>views</TableCell>
-                  <TableCell>comments</TableCell>
-                  <TableCell>likes</TableCell>
+                  <TableCell className="text-right ">views</TableCell>
+                  <TableCell className="text-right">comments</TableCell>
+                  <TableCell className="text-right pr-6">likes</TableCell>
                 </TableRow>
               ))}
           </TableBody>
